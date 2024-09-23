@@ -17,6 +17,9 @@
     "entrypoints": {
         "main": [
             "com.cursee.villager_waypoints.VillagerWaypointsFabric"
+        ],
+        "client": [
+            "com.cursee.villager_waypoints.core.client.VillagerWaypointClientFabric"
         ]
     },
     "mixins": [

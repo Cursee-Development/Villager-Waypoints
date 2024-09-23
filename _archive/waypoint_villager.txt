@@ -1,0 +1,19 @@
+
+public static final AnimationDefinition WAYPOINT_VILLAGER_GENERAL = AnimationDefinition.Builder.withLength(0f).looping()
+.addAnimation("arms",
+	new AnimationChannel(AnimationChannel.Targets.POSITION, 
+		new Keyframe(0f, KeyframeAnimations.posVec(0f, -1f, -1f),
+			AnimationChannel.Interpolations.LINEAR)))
+.addAnimation("arms",
+	new AnimationChannel(AnimationChannel.Targets.ROTATION,
+		new Keyframe(0f, KeyframeAnimations.degreeVec(NaNf, 0f, 0f),
+			AnimationChannel.Interpolations.LINEAR))).build();
+public static final AnimationDefinition WAYPOINT_VILLAGER_MOVE = AnimationDefinition.Builder.withLength(0f).looping()
+.addAnimation("leg0",
+	new AnimationChannel(AnimationChannel.Targets.ROTATION,
+		new Keyframe(0f, KeyframeAnimations.degreeVec(NaNf, NaNf, 0f),
+			AnimationChannel.Interpolations.LINEAR)))
+.addAnimation("leg1",
+	new AnimationChannel(AnimationChannel.Targets.ROTATION,
+		new Keyframe(0f, KeyframeAnimations.degreeVec(NaNf, NaNf, 0f),
+			AnimationChannel.Interpolations.LINEAR))).build();
