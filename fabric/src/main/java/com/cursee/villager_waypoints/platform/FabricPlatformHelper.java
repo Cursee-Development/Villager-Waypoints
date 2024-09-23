@@ -1,6 +1,6 @@
-package com.cursee.examplemod.platform;
+package com.cursee.villager_waypoints.platform;
 
-import com.cursee.examplemod.platform.services.IPlatformHelper;
+import com.cursee.villager_waypoints.platform.services.IPlatformHelper;
 import net.fabricmc.loader.api.FabricLoader;
 
 public class FabricPlatformHelper implements IPlatformHelper {

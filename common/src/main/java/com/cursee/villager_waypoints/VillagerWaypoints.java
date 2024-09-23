@@ -1,6 +1,6 @@
-package com.cursee.examplemod;
+package com.cursee.villager_waypoints;
 
-public class ExampleMod {
+public class VillagerWaypoints {
 
     public static boolean debugCommon = false;
 

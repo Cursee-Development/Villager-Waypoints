@@ -1,7 +1,7 @@
-package com.cursee.examplemod.mixin;
+package com.cursee.villager_waypoints.mixin;
 
-import com.cursee.examplemod.Constants;
-import com.cursee.examplemod.platform.Services;
+import com.cursee.villager_waypoints.Constants;
+import com.cursee.villager_waypoints.platform.Services;
 import com.cursee.monolib.core.MonoLibConfiguration;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.screens.TitleScreen;

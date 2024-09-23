@@ -1,7 +1,7 @@
-package com.cursee.examplemod.platform;
+package com.cursee.villager_waypoints.platform;
 
-import com.cursee.examplemod.Constants;
-import com.cursee.examplemod.platform.services.IPlatformHelper;
+import com.cursee.villager_waypoints.Constants;
+import com.cursee.villager_waypoints.platform.services.IPlatformHelper;
 
 import java.util.ServiceLoader;
 
